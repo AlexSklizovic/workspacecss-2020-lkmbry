@@ -17,14 +17,46 @@
 	/* ---------------------------------------------------------------------------------------------------------- 
 	01 Color ----------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------- */
+html{
+  background-color: hsla(270, 22%, 38%, 0.6);
+  padding:5%;
+}
 
+body{
+  background-color: hsla(249, 100%, 76%, 0.6);
+  color: hsla(100, 100%, 80%, 0.9);
+}
 
+header h1{
+  background-color: hsla(0, 100%, 63%, 0.9)
+}
 
+div.preamble, div.requirements, div.benefits{
+  color: hsla(180, 50%, 25%, 0.8);
+  background-color: hsla(0, 100%, 100%, 0.9)
+}
+
+footer{
+  background-color: hsla(180, 50%, 25%, 0.8)
+}
+
+div.participation{
+  background-color: hsla(0, 100%, 63%, 0.9);
+}
+
+aside.sidebar{
+  background-color: hsla(40, 45%, 77%, 0.7)
+}
 
 
 /** 02 Typography -- Font  **/
+body{
+  font-family: 'Roboto Mono', monospace;
+}
 
-
+div.summary{
+  font-family: 'Ranchers', cursive;
+}
 
 /** 03 Position, Size, layout **/
 

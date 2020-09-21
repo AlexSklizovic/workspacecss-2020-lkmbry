@@ -67,6 +67,11 @@ div.summary{
   font-family: 'Ranchers', cursive;
 }
 
+a{
+  text-decoration: none;
+  color: green;
+}
+
 /** 03 Position, Size, layout **/
 
 

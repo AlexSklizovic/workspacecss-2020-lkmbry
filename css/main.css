@@ -157,6 +157,15 @@ div.summary{
 }
 /** 04  Other decoration -- background Links **/ 
 
+/* top nav bar */
+#zen-resources {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: blanchedalmond;
+}
+
 /* hide the h3 inside of zen resources */
 #zen-resources h3{
   display:none;
@@ -173,6 +182,38 @@ div.summary{
   border: 0px;
 }
 
+/* hover over active practice */
+a:hover{
+  border: 3px solid grey;
+}
+
+p:active{
+  border: 3px solid grey;
+}
+
+p{
+  visibility: visible;
+}
+
+h3:hover ~p{
+  visibility: visible;
+}
+
+li:first-of-type{
+  color:blueviolet
+}
+
+p::first-letter{
+  font-size: 300%;
+}
+
+p:nth-child(3n){
+  background-color: hsla(249, 100%, 76%, 0.6);
+}
+
+p:nth-child(3n+1){
+  background-color: hsla(180, 91%, 48%, 0.8);
+}
 
 /**	05	Media  **/
 header>h1{
